@@ -1,9 +1,9 @@
-import './Header.css'
+import style from './Header.module.css'
 
 const Header = () => {
   return (
-    <header className='header'>
-      <a href="#" className="header__logo">SN</a>
+    <header className={style.header}>
+      <a href="#" className={style.header__logo}>SN</a>
     </header>
   )
 }

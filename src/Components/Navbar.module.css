@@ -3,14 +3,14 @@
     height: 300px;
     padding: 10px;
     background-color: #333;
-    color: #ccc;
-
+    /*color: #ccc;*/
     box-shadow: 1px 6px 28px 0px rgba(51,51,51,0.6);
     -webkit-box-shadow: 1px 6px 28px 0px rgba(51,51,51,0.6);
     -moz-box-shadow: 1px 6px 28px 0px rgba(51,51,51,0.6);
 }
 
-.nav ul li {
+.item {
     font-size: 20px;
     list-style: none;
+    color: white;
 }
