@@ -1,0 +1,22 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-areas: "names messages";
+    grid-template-columns: 3fr 7fr;
+    grid-gap: 10px;
+}
+
+/* USERS BLOCK */
+.dialogs__list {
+    grid-area: names;
+    padding: 15px;
+    background-color: #777777;
+}
+
+/* MESSAGE BLOCK */
+.message__list {
+    grid-area: messages;
+    padding: 15px;
+    background-color: #777777;
+}
+

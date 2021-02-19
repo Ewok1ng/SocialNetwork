@@ -1,0 +1,16 @@
+.dialogs__item {
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1;
+    color: white;
+}
+
+.dialogs__item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.dialogs__item a.active {
+    color: gold;
+}

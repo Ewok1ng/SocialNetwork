@@ -4,13 +4,21 @@
     padding: 10px;
     background-color: #333;
     /*color: #ccc;*/
-    box-shadow: 1px 6px 28px 0px rgba(51,51,51,0.6);
-    -webkit-box-shadow: 1px 6px 28px 0px rgba(51,51,51,0.6);
-    -moz-box-shadow: 1px 6px 28px 0px rgba(51,51,51,0.6);
+    box-shadow: 1px 6px 28px 0px rgba(51, 51, 51, 0.6);
 }
+
 
 .item {
     font-size: 20px;
     list-style: none;
     color: white;
+}
+
+.item a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.item a.active {
+    color: gold;
 }
